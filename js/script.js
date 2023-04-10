@@ -54,7 +54,17 @@ function potenica (numero){
 console.log(potenica(8));
 */
 
+const enviar = document.querySelector("#enter");
 
+enviar.addEventListener("click", function(e){
+
+   e.preventDefault();
+
+    const txnome = document.querySelector("#txnome");
+    const nome = txnome.valeu;
+
+    console.log(`Nome: ${nome}`);
+})
 
 
 
